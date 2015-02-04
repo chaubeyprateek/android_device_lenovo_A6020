@@ -177,6 +177,7 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.rc \
     init.qcom.ril.sh \
+    init.qti.ims.sh \
     ueventd.qcom.rc
 
 # RIL
