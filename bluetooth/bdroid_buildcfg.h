@@ -20,4 +20,7 @@
 #define BTM_DEF_LOCAL_NAME "Lenovo K5"
 #define BLUETOOTH_QTI_SW TRUE
 #define BLE_VND_INCLUDED TRUE
+
+/* Defined if the kernel does not have support for CLOCK_BOOTTIME_ALARM */
+#define KERNEL_MISSING_CLOCK_BOOTTIME_ALARM TRUE
 #endif
