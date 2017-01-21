@@ -83,6 +83,9 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     tinymix
 
+# Audio
+AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
