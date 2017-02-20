@@ -68,6 +68,8 @@ media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
 
 # Perf
+ro.min_freq_0=960000
+ro.min_freq_4=800000
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # Qualcomm
