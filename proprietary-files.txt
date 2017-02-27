@@ -174,8 +174,8 @@ lib64/libdivxdrmdecrypt.so
 lib64/libOmxVdecHevc.so
 vendor/lib/libDivxDrm.so
 vendor/lib64/libDivxDrm.so
--vendor/lib/libHevcSwDecoder.so
--vendor/lib64/libHevcSwDecoder.so
+vendor/lib/libHevcSwDecoder.so
+vendor/lib64/libHevcSwDecoder.so
 vendor/lib/libI420colorconvert.so
 vendor/lib/libmmosal.so
 vendor/lib/libmm-color-convertor.so
@@ -197,6 +197,11 @@ vendor/lib64/libwfdcommonutils.so
 bin/batt_health
 bin/dbvc_atvc_property_set
 bin/hardware_revisions.sh
+
+# Perf
+bin/msm_irqbalance
+vendor/bin/perfd
+vendor/lib/libqti-perfd-client.so
 
 # Qualcomm framework
 bin/irsc_util
