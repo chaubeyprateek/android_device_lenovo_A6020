@@ -15,11 +15,13 @@
 $(call inherit-product, device/lenovo/A6020/full_A6020.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product-if-exists, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Boot animation
-TARGET_SCREEN_WIDTH := 720
-TARGET_SCREEN_HEIGHT := 1280
+# Platform
+TARGET_BOARD_PLATFORM := msm8916
+
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := A6020,A6020a40,A6020a41,A6020a46,A6020l36,A6020l37,K32c36,k5,k5_plus,vibe_k5
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_MODEL := A6020
@@ -27,6 +29,5 @@ PRODUCT_NAME := lineage_A6020
 PRODUCT_BRAND := lenovo
 PRODUCT_MANUFACTURER := lenovo
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="Lenovo Vibe K5"
+
 
