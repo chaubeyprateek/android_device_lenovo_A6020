@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/lenovo/A6020/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := A6020
+PRODUCT_MODEL := A6020
 PRODUCT_NAME := full_A6020
 
 $(call inherit-product-if-exists, vendor/lenovo/A6020/A6020-vendor.mk)
