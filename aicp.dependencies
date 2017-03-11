@@ -33,5 +33,10 @@
    "repository":  "chaubeyprateek/vendor_qcom_binaries",
    "target_path": "vendor/qcom/binaries",
    "branch":      "cm-14.1"
+  },
+  {
+   "repository":  "Lineageos/android_packages_resources_devicesettings",
+   "target_path": "packages/resources/devicesettings",
+   "branch":      "cm-14.1"
   }
 ]
