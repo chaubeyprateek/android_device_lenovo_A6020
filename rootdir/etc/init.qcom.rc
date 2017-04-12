@@ -537,3 +537,10 @@ service fm_dl /system/bin/sh /system/etc/init.qcom.fm.sh
 service qcom-mem /system/bin/sh /system/etc/init.qcom.mem.sh
     disabled
     oneshot
+
+on boot
+   # enable sweep2wake up
+   chown root root /sys/android_touch/sweep2wake
+   chmod 666 /sys/android_touch/sweep2wake
+   write /sys/android_touch/sweep2wake 4
+   chmod 644 /sys/android_touch/sweep2wake
